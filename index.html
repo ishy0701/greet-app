@@ -3,16 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coding greet</title>
+  <title>Coding Greet</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>😅 Coding greet</h1>
-    <textarea id="greetInput" placeholder="Write your coding greet..."></textarea>
-    <button onclick="addgreet()">Submit greet</button>
-    <h2>📜 greet</h2>
-    <ul id="greetList"></ul>
+    <!-- First screen -->
+    <div id="startScreen">
+      <p class="message">Click the heart!</p>
+      <button id="heartBtn">❤️</button>
+    </div>
+
+    <!-- Greet screen -->
+    <div id="greetScreen" class="hidden">
+      <div class="greet-card">
+        <h2>Happy birthday, Dear.</h2>
+        <p>
+          I know we probably having a misunderstanding now but I want you to know that I love you everyday.
+          Every little moment with you means more than I can put into words. I'm for being the way I am most of the time
+          and sorry for not treating you the best. I really does appreciates everything you do.
+        </p>
+        <p>
+          I’m grateful for you. No matter what, I just want you to know how special you are to me. I will never hold any
+          hate towards you. I hope you find true happiness and take good care of yourself. I will always be genuinely
+          happy for you and will continue to pray for nothing but the best for you.
+        </p>
+        <p>
+          love,<br>
+          rch ❤️
+        </p>
+      </div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
